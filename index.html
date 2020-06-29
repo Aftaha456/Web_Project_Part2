@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <style >
+    .footer {
+      position:fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 8%;
+      background-color: black;
+      color: white;
+      text-align: center;
+    }
+
+
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .NewsRoom {
+      float: left;
+      overflow: hidden;
+    }
+
+    .NewsRoom .dropbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+
+    .navbar a:hover, .NewsRoom:hover .dropbtn {
+      background-color: red;
+    }
+
+    .NewsRoom-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .NewsRoom-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .NewsRoom-content a:hover {
+      background-color: #3366ff;
+    }
+
+    .NewsRoom:hover .NewsRoom-content {
+      display: block;
+    }
+
+    .more{
+      text-align: right;
+      color: blue;
+
+    }
+
+    .white{
+      color: white;
+    }
+
+
+    </style>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+
+    <form class="main" >
+
+    <table style="width:100%" >
+
+      <tr>
+        <td><img src="images/2.png" alt=""></td>
+
+        <td  style="text-align:right">
+          <div class="topnav">
+          <input type="text" placeholder="Search..">
+        </div> </td>
+        <td style="border-collapse:collapse"><a href="http:/google.com"><img src="images/1.png" height="22px" width="22px"></a></td>
+      </tr>
+    </table>
+
+    <div class="footer">
+      <table width="100%" >
+        <tr>
+          <td style="text-align:left"><h4>Contact us</h4></td>
+          <td style="text-align:right"><a href="http:/facebook.com"><img src="images/3.jpg" height="22px" width="60px"></a></td>
+        </tr>
+      </table>
+    </div>
+   <img src="images/7.png" width="100%" height="250px">
+
+
+   <div class="navbar">
+     <table width="100%">
+
+     <tr>
+       <td><a href="index.html">Home</a></td>
+       <td><a href="kaha.html">History</a></td>
+
+       <td>
+     <div class="NewsRoom">
+       <button class="dropbtn"><a href="news.html">NewsRoom</a>
+         <i class="fa fa-caret-down"></i>
+       </button>
+       <div class="NewsRoom-content">
+         <a href="news.html">News Released</a>
+           <a href="events.html">Events</a>
+           <a href="countries.html">Countries</a>
+           <a href="speeches.html">Speeches</a>       </div>
+     </div></td>
+     <td><a href="ahlam1.html">Emergencies</a></td>
+     <td><a href="Aboutus.html">About Us</a></td>
+     </tr>
+     </table>
+   </div>
+   <h1>NEWSROOM</h1>
+   <table width="100%">
+     <tr>
+
+       <td style="text-align:right"><a href="https://www.who.int/news-room/detail/23-06-2020-ioc-joins-forces-with-who-and-the-united-nations-to-fight-covid-19"><img src="images/N1.jpg" alt="" width="450px" height="450px"></a></td>
+       <td style="text-align:center"><a href="https://www.who.int/news-room/detail/13-06-2020-a-cluster-of-covid-19-in-beijing-people-s-republic-of-china"><img src="images/N2.jpg" alt="" width="450px" height="450px"></a></td>
+       <td style="text-align:left"><a href="https://www.who.int/news-room/detail/29-05-2020-international-community-rallies-to-support-open-research-and-science-to-fight-covid-19"><img src="images/N3.jpg" alt="" width="450px" height="450px"></a></td>
+
+     </tr>
+   </table >
+
+   <p class="more"><a href="news.html"><b>More info: Click Here </b></a> </p>
+   <h1>EMERGENCIES</h1>
+   <table width="100%">
+     <tr>
+       <td style="text-align:right"><a href="https://www.theverge.com/2020/2/5/21124005/fda-emergency-approval-coronavirus-test-cdc-diagnostic-health-labs"><img src="images/E1.jpg" alt="" width="450px" height="450px"></a></td>
+       <td style="text-align:center"><a href="https://abcnews.go.com/Health/wireStory/virus-infected-9800-globally-68662197"><img src="images/E2.jpg" alt="" width="450px" height="450px"></a></td>
+       <td style="text-align:left"><a href="https://www.dw.com/en/coronavirus-latest-south-korea-declares-red-alert-after-rapid-spike-in-cases/a-52486431"><img src="images/E3.jpg" alt="" width="450px" height="450px"></a></td>
+     </tr>
+   </table >
+   <p class="more"><a href="ahlam1.html">
+   <b>More info: Click Here </b></a> </p>
+   <h1>HISTORY</h1>
+   <table width="100%">
+     <tr>
+       <td style="text-align:right"><a href="https://economictimes.indiatimes.com/magazines/panache/history-repeats-itself-world-failed-to-learn-lessons-for-coronavirus-fight-from-sars-and-mers-outbreak/articleshow/74473723.cms?from=mdr"><img src="images/H1.jpg" alt="" width="450px" height="450px"></a></td>
+       <td style="text-align:center"><a href="https://abcnews.go.com/International/africa-faces-uphill-battle-coronavirus-pandemic-fragile-health/story?id=70285430"><img src="images/H2.jpg" alt="" width="450px" height="450px"></a></td>
+       <td style="text-align:left"><a href="https://www.thenational.scot/news/18204567.coronavirus-apocalyptic-responses-wont-stop-disease/"><img src="images/H3.jpg" alt="" width="450px" height="450px"></a></td>
+
+     </tr>
+   </table>
+
+   <p class="more"><a href="kaha.html"><b>More info: Click Here </b></a> </p>
+   <p class="white">.
+<table>
+  <tr>
+    <td>.</td></tr>
+<tr>
+    <td>.</td>
+  </tr>
+</table>
+</p>
+
+    </form>
+
+
+  </body>
+</html>
